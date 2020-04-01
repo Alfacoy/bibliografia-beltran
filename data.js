@@ -1,7 +1,7 @@
 const data = {
   catedras: [
     {
-      name: "Algebra",
+      name: "Álgebra",
       slides: [],
       complements: [],
       books: [],
@@ -19,7 +19,7 @@ const data = {
       books: [],
       optionalBooks: [
         {
-          name: "Analisis y Diseño Estructurado",
+          name: "Análisis y Diseño Estructurado",
           urlImage: null,
           url:
             "/docs/optional/siso/AnalisisyDisenoEstructuradoModernoYourdon.pdf",
@@ -52,7 +52,7 @@ const data = {
       optionalBooks: []
     },
     {
-      name: "Arquitectura de computadores",
+      name: "Arquitectura de computadoras",
       slides: [
         {
           name: "Definiciones varias",
@@ -64,14 +64,14 @@ const data = {
       optionalBooks: []
     },
     {
-      name: "Analisis Matematico",
+      name: "Analisis Matemático",
       slides: [],
       complements: [],
       books: [],
       optionalBooks: []
     },
     {
-      name: "Ingles Tecnico",
+      name: "Inglés Técnico",
       slides: [],
       complements: [],
       books: [
