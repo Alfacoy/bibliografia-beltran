@@ -64,7 +64,7 @@ const data = {
       optionalBooks: []
     },
     {
-      name: "Analisis Matemático",
+      name: "Análisis Matemático",
       slides: [],
       complements: [],
       books: [],
