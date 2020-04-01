@@ -12,3 +12,19 @@
 .listItemCat {
   padding: 8px 0;
 }
+
+.btn {
+  margin-top: 20px;
+  width: 120px;
+  padding: 5px 5px;
+  text-align: center;
+  background-color: var(--textColorLink);
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  box-shadow: 2px 2px 6px black;
+}
+
+.btn:hover {
+  transform: translateY(1px);
+}
