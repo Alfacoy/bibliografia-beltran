@@ -5,6 +5,7 @@ import style from "./style.scss";
 //Import API
 import data from "../../data";
 //Import ROUTER
+import Link from "next/link";
 import { useRouter } from "next/router";
 
 const Catedra = prop => {
@@ -12,6 +13,10 @@ const Catedra = prop => {
   const { cat } = router.query;
   return (
     <Layout>
+      <Link href="/">
+        <div className={style.btn}>Volver Atras</div>
+      </Link>
+
       <h2 className={style.titleCat}>
         <u>{cat}</u>
       </h2>
