@@ -13,12 +13,22 @@ body {
   background-color: $backgroundColorBody;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  color: $textColorLink;
+}
+
+a:visited {
+  color: $textColorLink;
 }
 
 :root {
@@ -28,4 +38,12 @@ a {
   --textColorLight: #{$textColorLight};
   --textColorLink: #{$textColorLink};
   --textColorLinkDark: #{$textColorLinkDark};
+}
+
+.titleIndex {
+  color: $textColorLinkDark;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  margin-bottom: 0;
+  text-decoration: underline;
 }
