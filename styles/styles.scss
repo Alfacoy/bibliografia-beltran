@@ -1,0 +1,31 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: $backgroundColorBody;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --backgroundColorBox: #{$backgroundColorBox};
+  --backgroundColorBody: #{$backgroundColorBody};
+  --textColor: #{$textColor};
+  --textColorLight: #{$textColorLight};
+  --textColorLink: #{$textColorLink};
+  --textColorLinkDark: #{$textColorLinkDark};
+}
