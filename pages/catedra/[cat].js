@@ -26,6 +26,51 @@ const Catedra = prop => {
           <p>No hay información</p>
         )}
       </article>
+
+      <article>
+        <h3>Complementos</h3>
+        {prop.complements.length > 0 ? (
+          prop.complements.map((complement, index) => (
+            <li key={index}>
+              <a href={complement.url} target="_blank">
+                {complement.name}
+              </a>
+            </li>
+          ))
+        ) : (
+          <p>No hay información</p>
+        )}
+      </article>
+
+      <article>
+        <h3>Libros</h3>
+        {prop.books.length > 0 ? (
+          prop.books.map((book, index) => (
+            <li key={index}>
+              <a href={book.url} target="_blank">
+                {book.name}
+              </a>
+            </li>
+          ))
+        ) : (
+          <p>No hay información</p>
+        )}
+      </article>
+
+      <article>
+        <h3>Libros Opcionales</h3>
+        {prop.optionalBooks.length > 0 ? (
+          prop.optionalBooks.map((book, index) => (
+            <li key={index}>
+              <a href={book.url} target="_blank">
+                {book.name}
+              </a>
+            </li>
+          ))
+        ) : (
+          <p>No hay información</p>
+        )}
+      </article>
     </Layout>
   );
 };
