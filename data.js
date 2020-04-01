@@ -187,6 +187,22 @@ const data = {
       ],
 
       optionalBooks: []
+    },
+    {
+      name: "Prácticas Profesionalizantes",
+      slides: [
+        {
+          name: "Modelo de capas",
+          url: "/docs/slides/pp/ppModeloDeCapas.pdf"
+        },
+        {
+          name: "Arquitectura cliente servidor",
+          url: "/docs/slides/pp/ppArqCliSer.pdf"
+        }
+      ],
+      complements: [],
+      books: [],
+      optionalBooks: []
     }
   ]
 };
