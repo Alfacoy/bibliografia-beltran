@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 const Catedra = () => {
   const router = useRouter();
   const { cat } = router.query;
-  const libros = data.catedras.find(e => e.name == cat);
+  const libros = data.catedras.find(e => e.name == cat) || [];
 
   return (
     <Layout>

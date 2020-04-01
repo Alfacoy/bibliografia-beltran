@@ -96,93 +96,93 @@ const data = {
       complements: [
         {
           name: "Ciencia y tecnología en la sociedad",
-          url: "/docs/complement/cts/CTSINTRO.pdf"
+          url: "/docs/complement/ctso/CTSINTRO.pdf"
         },
         {
           name: "El concepto de Tecnología",
-          url: "/docs/complement/cts/CTSINTRO.pdf"
+          url: "/docs/complement/ctso/CTSINTRO.pdf"
         },
         {
           name: "La construcción social de la bicicleta",
-          url: "/docs/complement/cts/bicicleta.pdf"
+          url: "/docs/complement/ctso/bicicleta.pdf"
         },
         {
           name:
             "Efectos de la Tecnología: el modelo consolidado y su impacto económico",
-          url: "/docs/complement/cts/efectosTecnologias.pdf"
+          url: "/docs/complement/ctso/efectosTecnologia.pdf"
         },
         {
           name: "Preguntas articulo Natalia Zuazo",
-          url: "/docs/complement/cts/nataliaZuazo.docx"
+          url: "/docs/complement/ctso/nataliaZuazo.docx"
         },
         {
           name: "El empleo estable en peligro",
-          url: "/docs/complement/cts/empleoEstablePeligro.pdf"
+          url: "/docs/complement/ctso/empleoEstablePeligro.pdf"
         },
         {
           name:
             "Inédita protesta de trabajadores chinos contra lasjornadas laborales extenuantes",
-          url: "/docs/complement/cts/protestaTrabajadoresChinos.pdf"
+          url: "/docs/complement/ctso/protestaTrabajadoresChinos.pdf"
         },
         {
           name: "A merced del algoritmo",
-          url: "/docs/complement/cts/mercedAlgoritmo.pdf"
+          url: "/docs/complement/ctso/mercedAlgoritmo.pdf"
         },
         {
           name: "El precariado",
-          url: "/docs/complement/cts/precariado.pdf"
+          url: "/docs/complement/ctso/precariado.pdf"
         },
         {
           name: "La guerra de las plataformas (1)",
-          url: "/docs/complement/cts/guerraDePlataformas_1.pdf"
+          url: "/docs/complement/ctso/guerraDePlataformas_1.pdf"
         },
         {
           name: "La guerra de las plataformas (2)",
-          url: "/docs/complement/cts/guerraDePlataformas_2.pdf"
+          url: "/docs/complement/ctso/guerraDePlataformas_2.pdf"
         },
         {
           name: "La guerra de las plataformas (3)",
-          url: "/docs/complement/cts/guerraDePlataformas_3.pdf"
+          url: "/docs/complement/ctso/guerraDePlataformas_3.pdf"
         },
         {
           name:
             "Tecnología, Política y Sociedad: de la Ciencia y Tecnología a la Tecnociencia",
-          url: "/docs/complement/cts/TicSocControlPolitica.pdf"
+          url: "/docs/complement/ctso/TicSocControlPolitica.pdf"
         },
         {
           name: "Industria 4.0: la transformación digital de la industria",
-          url: "/docs/complement/cts/industria4dot0.pdf"
+          url: "/docs/complement/ctso/industria4dot0.pdf"
         }
       ],
       books: [
         {
           name: "Ciencia, Tecnología y Sociedad: una aproximación conceptual",
-          url: "/docs/books/cts/CTS.pdf"
+          url: "/docs/books/ctso/CTS.pdf"
         },
         {
           name:
             "Manual de tecnologías abiertas para la gestión de organizaciones de la Economía Social y Solidaria",
-          url: "/docs/books/cts/manualWeb.pdf"
+          url: "/docs/books/ctso/manualWeb.pdf"
         },
         {
           name: "Textos escogidos",
-          url: "/docs/books/cts/textosEscogidos.pdf"
+          url: "/docs/books/ctso/textosEscogidos.pdf"
         },
         {
           name: "La cultura de la conectividad",
-          url: "/docs/books/cts/culturaConectividad.pdf"
+          url: "/docs/books/ctso/culturaConectividad.pdf"
         },
         {
           name: "Acepto las condiciones",
-          url: "/docs/books/cts/aceptoCondiciones.pdf"
+          url: "/docs/books/ctso/aceptoCondiciones.pdf"
         },
         {
           name: "La obra de arte en la época de su reproductibilidad técnica",
-          url: "/docs/books/cts/textoPardoBenjamin.pdf"
+          url: "/docs/books/ctso/textoPardoBenjamin.pdf"
         },
         {
           name: "Software libre para una sociedad libre",
-          url: "/docs/books/cts/freeSoftware.pdf"
+          url: "/docs/books/ctso/freeSoftware.pdf"
         }
       ],
 
