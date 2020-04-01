@@ -5,76 +5,35 @@ import data from "../../data";
 //Import ROUTER
 import { useRouter } from "next/router";
 
-const Catedra = () => {
+const Catedra = prop => {
   const router = useRouter();
   const { cat } = router.query;
-  const libros = data.catedras.find(e => e.name == cat) || [];
-
   return (
     <Layout>
       <h2>{cat}</h2>
 
       <article>
         <h3>Slides</h3>
-        {libros.slides.length > 0 ? (
-          libros.slides.map((i, index) => (
+        {prop.slides.length > 0 ? (
+          prop.slides.map((slide, index) => (
             <li key={index}>
-              <a href={i.url || "/"} target="_blank">
-                {i.name}
+              <a href={slide.url} target="_blank">
+                {slide.name}
               </a>
             </li>
           ))
         ) : (
-          <p>No hay material disponible</p>
-        )}
-      </article>
-
-      <article>
-        <h3>Complementos</h3>
-        {libros.complements.length > 0 ? (
-          libros.complements.map((i, index) => (
-            <li key={index}>
-              <a href={i.url || "/"} target="_blank">
-                {i.name}
-              </a>
-            </li>
-          ))
-        ) : (
-          <p>No hay material disponible</p>
-        )}
-      </article>
-
-      <article>
-        <h3>Libros</h3>
-        {libros.books.length > 0 ? (
-          libros.books.map((i, index) => (
-            <li key={index}>
-              <a href={i.url || "/"} target="_blank">
-                {i.name}
-              </a>
-            </li>
-          ))
-        ) : (
-          <p>No hay material disponible</p>
-        )}
-      </article>
-
-      <article>
-        <h3>Libros opcionales</h3>
-        {libros.optionalBooks.length > 0 ? (
-          libros.optionalBooks.map((i, index) => (
-            <li key={index}>
-              <a href={i.url || "/"} target="_blank">
-                {i.name}
-              </a>
-            </li>
-          ))
-        ) : (
-          <p>No hay material disponible</p>
+          <p>No hay información</p>
         )}
       </article>
     </Layout>
   );
+};
+
+Catedra.getInitialProps = async ctx => {
+  const route = ctx.query;
+  const catedra = data.catedras.find(e => e.name == route.cat) || " ";
+  return catedra;
 };
 
 export default Catedra;
