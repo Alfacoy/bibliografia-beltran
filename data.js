@@ -5,15 +5,23 @@ const data = {
       slides: [],
       complements: [],
       books: [],
-      optionalBooks: []
+      optionalBooks: [],
     },
     {
       name: "Sistemas y Organizaciones",
       slides: [
         {
+          name: "Curso de ingreso - Clase 1",
+          url: "/docs/slides/siso/CIClase1.pdf",
+        },
+        {
+          name: "Curso de ingreso - Clase 2",
+          url: "/docs/slides/siso/CIClase2.pdf",
+        },
+        {
           name: "Teoría General Sistemas",
-          url: "/docs/slides/siso/TeoriaGralSistemas.pdf"
-        }
+          url: "/docs/slides/siso/TeoriaGralSistemas.pdf",
+        },
       ],
       complements: [],
       books: [],
@@ -23,52 +31,52 @@ const data = {
           urlImage: null,
           url:
             "/docs/optional/siso/AnalisisyDisenoEstructuradoModernoYourdon.pdf",
-          description: null
-        }
-      ]
+          description: null,
+        },
+      ],
     },
     {
       name: "Algoritmos y estructuras de datos",
       slides: [
         {
           name: "Algoritmos de programación: Introducción",
-          url: "/docs/slides/aled/algoritmoProgramacionIntro.pdf"
+          url: "/docs/slides/aled/algoritmoProgramacionIntro.pdf",
         },
         {
           name: "Algoritmos de programación: Pseudocódigo (1)",
-          url: "/docs/slides/aled/algoritmoProgramacionPseudo_1.pdf"
+          url: "/docs/slides/aled/algoritmoProgramacionPseudo_1.pdf",
         },
         {
           name: "Algoritmos de programación: Pseudocódigo (2)",
-          url: "/docs/slides/aled/algoritmoProgramacionPseudo_2.pdf"
+          url: "/docs/slides/aled/algoritmoProgramacionPseudo_2.pdf",
         },
         {
           name: "Método o esquema de resolución",
-          url: "/docs/slides/aled/algoritmoProgramacionPseudo_2.pdf"
-        }
+          url: "/docs/slides/aled/algoritmoProgramacionPseudo_2.pdf",
+        },
       ],
       complements: [],
       books: [],
-      optionalBooks: []
+      optionalBooks: [],
     },
     {
       name: "Arquitectura de computadoras",
       slides: [
         {
           name: "Definiciones varias",
-          url: "/docs/slides/arco/definicionesVarias.pdf"
-        }
+          url: "/docs/slides/arco/definicionesVarias.pdf",
+        },
       ],
       complements: [],
       books: [],
-      optionalBooks: []
+      optionalBooks: [],
     },
     {
       name: "Análisis Matemático",
       slides: [],
       complements: [],
       books: [],
-      optionalBooks: []
+      optionalBooks: [],
     },
     {
       name: "Inglés Técnico",
@@ -79,16 +87,16 @@ const data = {
           name: "Grammar practice booklet",
           urlImage: null,
           url: "/docs/books/in/grammarPracticeBooklet1C.pdf",
-          description: null
+          description: null,
         },
         {
           name: "English for Information Technology",
           urlImage: null,
           url: "/docs/books/in/informationTecnology.pdf",
-          description: null
-        }
+          description: null,
+        },
       ],
-      optionalBooks: []
+      optionalBooks: [],
     },
     {
       name: "Ciencia, Tecnología y Sociedad",
@@ -96,115 +104,115 @@ const data = {
       complements: [
         {
           name: "Ciencia y tecnología en la sociedad",
-          url: "/docs/complement/ctso/CTSINTRO.pdf"
+          url: "/docs/complement/ctso/CTSINTRO.pdf",
         },
         {
           name: "El concepto de Tecnología",
-          url: "/docs/complement/ctso/CTSINTRO.pdf"
+          url: "/docs/complement/ctso/CTSINTRO.pdf",
         },
         {
           name: "La construcción social de la bicicleta",
-          url: "/docs/complement/ctso/bicicleta.pdf"
+          url: "/docs/complement/ctso/bicicleta.pdf",
         },
         {
           name:
             "Efectos de la Tecnología: el modelo consolidado y su impacto económico",
-          url: "/docs/complement/ctso/efectosTecnologia.pdf"
+          url: "/docs/complement/ctso/efectosTecnologia.pdf",
         },
         {
           name: "Preguntas articulo Natalia Zuazo",
-          url: "/docs/complement/ctso/nataliaZuazo.docx"
+          url: "/docs/complement/ctso/nataliaZuazo.docx",
         },
         {
           name: "El empleo estable en peligro",
-          url: "/docs/complement/ctso/empleoEstablePeligro.pdf"
+          url: "/docs/complement/ctso/empleoEstablePeligro.pdf",
         },
         {
           name:
             "Inédita protesta de trabajadores chinos contra lasjornadas laborales extenuantes",
-          url: "/docs/complement/ctso/protestaTrabajadoresChinos.pdf"
+          url: "/docs/complement/ctso/protestaTrabajadoresChinos.pdf",
         },
         {
           name: "A merced del algoritmo",
-          url: "/docs/complement/ctso/mercedAlgoritmo.pdf"
+          url: "/docs/complement/ctso/mercedAlgoritmo.pdf",
         },
         {
           name: "El precariado",
-          url: "/docs/complement/ctso/precariado.pdf"
+          url: "/docs/complement/ctso/precariado.pdf",
         },
         {
           name: "La guerra de las plataformas (1)",
-          url: "/docs/complement/ctso/guerraDePlataformas_1.pdf"
+          url: "/docs/complement/ctso/guerraDePlataformas_1.pdf",
         },
         {
           name: "La guerra de las plataformas (2)",
-          url: "/docs/complement/ctso/guerraDePlataformas_2.pdf"
+          url: "/docs/complement/ctso/guerraDePlataformas_2.pdf",
         },
         {
           name: "La guerra de las plataformas (3)",
-          url: "/docs/complement/ctso/guerraDePlataformas_3.pdf"
+          url: "/docs/complement/ctso/guerraDePlataformas_3.pdf",
         },
         {
           name:
             "Tecnología, Política y Sociedad: de la Ciencia y Tecnología a la Tecnociencia",
-          url: "/docs/complement/ctso/TicSocControlPolitica.pdf"
+          url: "/docs/complement/ctso/TicSocControlPolitica.pdf",
         },
         {
           name: "Industria 4.0: la transformación digital de la industria",
-          url: "/docs/complement/ctso/industria4dot0.pdf"
-        }
+          url: "/docs/complement/ctso/industria4dot0.pdf",
+        },
       ],
       books: [
         {
           name: "Ciencia, Tecnología y Sociedad: una aproximación conceptual",
-          url: "/docs/books/ctso/CTS.pdf"
+          url: "/docs/books/ctso/CTS.pdf",
         },
         {
           name:
             "Manual de tecnologías abiertas para la gestión de organizaciones de la Economía Social y Solidaria",
-          url: "/docs/books/ctso/manualWeb.pdf"
+          url: "/docs/books/ctso/manualWeb.pdf",
         },
         {
           name: "Textos escogidos",
-          url: "/docs/books/ctso/textosEscogidos.pdf"
+          url: "/docs/books/ctso/textosEscogidos.pdf",
         },
         {
           name: "La cultura de la conectividad",
-          url: "/docs/books/ctso/culturaConectividad.pdf"
+          url: "/docs/books/ctso/culturaConectividad.pdf",
         },
         {
           name: "Acepto las condiciones",
-          url: "/docs/books/ctso/aceptoCondiciones.pdf"
+          url: "/docs/books/ctso/aceptoCondiciones.pdf",
         },
         {
           name: "La obra de arte en la época de su reproductibilidad técnica",
-          url: "/docs/books/ctso/textoPardoBenjamin.pdf"
+          url: "/docs/books/ctso/textoPardoBenjamin.pdf",
         },
         {
           name: "Software libre para una sociedad libre",
-          url: "/docs/books/ctso/freeSoftware.pdf"
-        }
+          url: "/docs/books/ctso/freeSoftware.pdf",
+        },
       ],
 
-      optionalBooks: []
+      optionalBooks: [],
     },
     {
       name: "Prácticas Profesionalizantes",
       slides: [
         {
           name: "Modelo de capas",
-          url: "/docs/slides/pp/ppModeloDeCapas.pdf"
+          url: "/docs/slides/pp/ppModeloDeCapas.pdf",
         },
         {
           name: "Arquitectura cliente servidor",
-          url: "/docs/slides/pp/ppArqCliSer.pdf"
-        }
+          url: "/docs/slides/pp/ppArqCliSer.pdf",
+        },
       ],
       complements: [],
       books: [],
-      optionalBooks: []
-    }
-  ]
+      optionalBooks: [],
+    },
+  ],
 };
 
 export default data;
