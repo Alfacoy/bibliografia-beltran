@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <Layout>
       <section>
-        <h3 className={style.titleIndex}>Catedra</h3>
+        <h3 className={style.titleIndex}>Cátedra</h3>
         <ul>
           <List data={data} />
         </ul>
