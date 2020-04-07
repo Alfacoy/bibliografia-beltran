@@ -1,3 +1,11 @@
+# Bibliografías
+
+Una web simple donde subo el material de lectura entregado por los profesores. Se incluyen tanto slides, como complementos (recortes, fragmentos, etc), libros recomendados y libros opcionales.
+
+- [Visita la web](https://bibliografia.now.sh/)
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
