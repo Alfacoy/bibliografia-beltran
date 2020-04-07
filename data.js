@@ -24,14 +24,24 @@ const data = {
         },
       ],
       complements: [],
-      books: [],
-      optionalBooks: [
+      books: [
         {
           name: "Análisis y Diseño Estructurado",
-          urlImage: null,
-          url:
-            "/docs/optional/siso/AnalisisyDisenoEstructuradoModernoYourdon.pdf",
-          description: null,
+          url: "/docs/books/siso/AnalisisyDisenoEstructuradoModernoYourdon.pdf",
+        },
+      ],
+      optionalBooks: [
+        {
+          name: "Sistemas de información gerencial",
+          url: "/docs/optional/siso/sistemasDeInformacionGerencial.pdf",
+        },
+        {
+          name: "Analisis y diseño de sistemas",
+          url: "/docs/optional/siso/analisisYdiseñoDeSistemas.pdf",
+        },
+        {
+          name: "Sistemas de información para los negocios",
+          url: "/docs/optional/siso/sistemasDeInformacionParaNegocios.pdf",
         },
       ],
     },
@@ -90,15 +100,11 @@ const data = {
       books: [
         {
           name: "Grammar practice booklet",
-          urlImage: null,
           url: "/docs/books/in/grammarPracticeBooklet1C.pdf",
-          description: null,
         },
         {
           name: "English for Information Technology",
-          urlImage: null,
           url: "/docs/books/in/informationTecnology.pdf",
-          description: null,
         },
       ],
       optionalBooks: [],
