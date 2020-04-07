@@ -1,6 +1,8 @@
 //Import Components
 import Layout from "../components/Layout";
 import List from "../components/List";
+//Import style
+import style from "../styles/styles.scss";
 //API
 import data from "../data";
 
@@ -8,7 +10,7 @@ const Home = () => {
   return (
     <Layout>
       <section>
-        <h3>Catedra</h3>
+        <h3 className={style.titleIndex}>Catedra</h3>
         <ul>
           <List data={data} />
         </ul>

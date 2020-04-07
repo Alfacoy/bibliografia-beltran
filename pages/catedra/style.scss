@@ -1,0 +1,29 @@
+.titleCat {
+  text-transform: uppercase;
+  color: var(--textColorLinkDark);
+}
+
+.titleRes {
+  margin-bottom: 0;
+  color: var(--textColorLinkDark);
+  text-transform: uppercase;
+}
+
+.listItemCat {
+  padding: 8px 0;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 120px;
+  padding: 5px 5px;
+  text-align: center;
+  background-color: var(--textColorLink);
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.btn:hover {
+  transform: translateY(1px);
+}

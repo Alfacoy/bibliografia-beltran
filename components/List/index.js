@@ -1,3 +1,6 @@
+//Import Style
+import style from "./style.scss";
+//Import Next
 import Link from "next/link";
 
 const List = ({ data }) => {
@@ -10,11 +13,11 @@ const List = ({ data }) => {
           catedra.books.length +
           catedra.optionalBooks.length;
         return (
-          <li key={index}>
+          <li key={index} className={style.list}>
             <Link href="/catedra/[cat]" as={`/catedra/${catedra.name}`}>
               <a>> {catedra.name} </a>
             </Link>{" "}
-            [{count}]
+            <span>[ {count} ]</span>
           </li>
         );
       })}
