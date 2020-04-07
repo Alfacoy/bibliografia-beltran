@@ -73,7 +73,12 @@ const data = {
     },
     {
       name: "Análisis Matemático",
-      slides: [],
+      slides: [
+        {
+          name: "Números enteros, racionales y reales.",
+          url: "/docs/slides/anmat/clase1.docx",
+        },
+      ],
       complements: [],
       books: [],
       optionalBooks: [],
