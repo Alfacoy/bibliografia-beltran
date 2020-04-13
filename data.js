@@ -22,6 +22,18 @@ const data = {
           name: "Teoría General Sistemas",
           url: "/docs/slides/siso/TeoriaGralSistemas.pdf",
         },
+        {
+          name: "Tipos de usuarios",
+          url: "/docs/slides/siso/SISOTipoUsuarios.pdf",
+        },
+        {
+          name: "Ciclo de vida",
+          url: "/docs/slides/siso/SISOCicloVida.pdf",
+        },
+        {
+          name: "Entrevistas",
+          url: "/docs/slides/siso/SISOEntrevistas.pdf",
+        },
       ],
       complements: [],
       books: [
@@ -62,7 +74,7 @@ const data = {
         },
         {
           name: "Método o esquema de resolución",
-          url: "/docs/slides/aled/algoritmoProgramacionPseudo_2.pdf",
+          url: "/docs/slides/aled/metodoOEsquema.pdf",
         },
       ],
       complements: [],
