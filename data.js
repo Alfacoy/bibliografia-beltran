@@ -76,6 +76,38 @@ const data = {
           name: "Método o esquema de resolución",
           url: "/docs/slides/aled/metodoOEsquema.pdf",
         },
+        {
+          name: "Introducción a C",
+          url: "/docs/slides/aled/introduccion_C.pdf",
+        },
+        {
+          name: "Operadores",
+          url: "/docs/slides/aled/operadores.pdf",
+        },
+        {
+          name: "Equivalencias pseudocódigo y C - primera parte",
+          url: "/docs/slides/aled/equivalencias_pseudocodigo_uno.pdf",
+        },
+        {
+          name: "Funciones de texto",
+          url: "/docs/slides/aled/funciones_texto.pdf",
+        },
+        {
+          name: "Equivalencias pseudocódigo y C - segunda parte",
+          url: "/docs/slides/aled/equivalencias_pseudocodigo_dos.pdf",
+        },
+        {
+          name: "Depuración de programas",
+          url: "/docs/slides/aled/depuracion.pdf",
+        },
+        {
+          name: "Subalgoritmos",
+          url: "/docs/slides/aled/subalgoritmos.pdf",
+        },
+        {
+          name: "Arreglos unidimencionales",
+          url: "/docs/slides/aled/arreglos_unidimencionales.pdf",
+        },
       ],
       complements: [],
       books: [],
@@ -111,12 +143,16 @@ const data = {
       complements: [],
       books: [
         {
-          name: "Grammar practice booklet",
+          name: "English for Information Technology",
+          url: "/docs/books/in/informationTecnology.pdf",
+        },
+        {
+          name: "Grammar practice booklet 1",
           url: "/docs/books/in/grammarPracticeBooklet1C.pdf",
         },
         {
-          name: "English for Information Technology",
-          url: "/docs/books/in/informationTecnology.pdf",
+          name: "Grammar practice booklet 2",
+          url: "/docs/books/in/grammarPracticeBooklet2C.pdf",
         },
       ],
       optionalBooks: [],

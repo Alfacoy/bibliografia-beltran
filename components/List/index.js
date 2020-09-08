@@ -15,7 +15,7 @@ const List = ({ data }) => {
         return (
           <li key={index} className={style.list}>
             <Link href="/catedra/[cat]" as={`/catedra/${catedra.name}`}>
-              <a>> {catedra.name} </a>
+              <a> {catedra.name} </a>
             </Link>{" "}
             <span>[ {count} ]</span>
           </li>

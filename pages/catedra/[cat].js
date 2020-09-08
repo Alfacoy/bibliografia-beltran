@@ -8,20 +8,20 @@ import data from "../../data";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const Catedra = prop => {
+const Catedra = (prop) => {
   const router = useRouter();
   const { cat } = router.query;
   return (
     <Layout>
       <Link href="/">
-        <div className={style.btn}>Volver Atras</div>
+        <div className={style.btn}>Volver Atrás</div>
       </Link>
 
       <h2 className={style.titleCat}>
         <u>{cat}</u>
       </h2>
       <article>
-        <h3 className={style.titleRes}>- Slides</h3>
+        <h3 className={style.titleRes}>Slides</h3>
         <ul>
           {prop.slides.length > 0 ? (
             prop.slides.map((slide, index) => (
@@ -32,13 +32,13 @@ const Catedra = prop => {
               </li>
             ))
           ) : (
-            <p>No se han encontrado recursos.</p>
+            <i>No se han encontrado recursos.</i>
           )}
         </ul>
       </article>
       <hr />
       <article>
-        <h3 className={style.titleRes}>- Complementos</h3>
+        <h3 className={style.titleRes}>Complementos</h3>
         <ul>
           {prop.complements.length > 0 ? (
             prop.complements.map((complement, index) => (
@@ -49,13 +49,13 @@ const Catedra = prop => {
               </li>
             ))
           ) : (
-            <p>No se han encontrado recursos.</p>
+            <i>No se han encontrado recursos.</i>
           )}
         </ul>
       </article>
       <hr />
       <article>
-        <h3 className={style.titleRes}>- Libros</h3>
+        <h3 className={style.titleRes}>Libros</h3>
         <ul>
           {prop.books.length > 0 ? (
             prop.books.map((book, index) => (
@@ -66,13 +66,13 @@ const Catedra = prop => {
               </li>
             ))
           ) : (
-            <p>No se han encontrado recursos.</p>
+            <i>No se han encontrado recursos.</i>
           )}
         </ul>
       </article>
       <hr />
       <article>
-        <h3 className={style.titleRes}>- Libros Opcionales</h3>
+        <h3 className={style.titleRes}>Libros Opcionales</h3>
         <ul>
           {prop.optionalBooks.length > 0 ? (
             prop.optionalBooks.map((book, index) => (
@@ -83,7 +83,7 @@ const Catedra = prop => {
               </li>
             ))
           ) : (
-            <p>No se han encontrado recursos.</p>
+            <i>No se han encontrado recursos.</i>
           )}
         </ul>
       </article>
@@ -91,9 +91,9 @@ const Catedra = prop => {
   );
 };
 
-Catedra.getInitialProps = async ctx => {
+Catedra.getInitialProps = async (ctx) => {
   const route = ctx.query;
-  const catedra = data.catedras.find(e => e.name == route.cat) || " ";
+  const catedra = data.catedras.find((e) => e.name == route.cat) || " ";
   return catedra;
 };
 
