@@ -25,9 +25,11 @@
   color: white;
 }
 
-.btn:hover {
-  transform: translateY(1px);
-  transition-duration: 0.5s;
-  background-color: transparent;
-  color: var(--textColorLink);
+@media screen and (min-width: 1200px) {
+  .btn:hover {
+    transform: translateY(1px);
+    transition-duration: 0.5s;
+    background-color: transparent;
+    color: var(--textColorLink);
+  }
 }
