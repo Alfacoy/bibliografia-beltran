@@ -108,6 +108,14 @@ const data = {
           name: "Arreglos unidimencionales",
           url: "/docs/slides/aled/arreglos_unidimencionales.pdf",
         },
+        {
+          name: "Arreglos unidimencionales de caracteres",
+          url: "/docs/slides/aled/arreglos_unidimencionales_caracteres.pdf",
+        },
+        {
+          name: "Arreglos multidimencionales",
+          url: "/docs/slides/aled/arreglos_multidimencionales.pdf",
+        },
       ],
       complements: [],
       books: [],
